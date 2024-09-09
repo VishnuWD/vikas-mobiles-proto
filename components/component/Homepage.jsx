@@ -18,6 +18,7 @@ To read more about using these font, please visit the Next.js documentation:
 - Pages Directory: https://nextjs.org/docs/pages/building-your-application/optimizing/fonts
 **/
 import Link from "next/link"
+import Image from 'next/image';
 import { Card, CardHeader, CardTitle, CardContent, CardFooter } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Label } from "@/components/ui/label"
@@ -75,10 +76,10 @@ export default function Homepage() {
               </div>
             </div>
             {/* <a href="https://storyset.com/technology">Technology illustrations by Storyset</a> */}
-            <img
+            <Image
               src="/product teardown-amico.svg"
-              width="550"
-              height="550"
+              width={550}
+              height={550}
               alt="Hero"
               className="mx-auto aspect-video overflow-hidden rounded-xl object-cover sm:w-full lg:order-last lg:aspect-square"
             />
@@ -157,8 +158,8 @@ export default function Homepage() {
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p>
-                    Is your charging port not working properly? We can replace it and get your device charging again.
+                  <p className="text-muted-foreground">
+                    {"Is your charging port not working properly? We can replace it and get your device charging again."}
                   </p>
                 </CardContent>
                 <CardFooter>
@@ -248,10 +249,10 @@ export default function Homepage() {
               </div>
             </div>
             {/* <a href="https://storyset.com/data">Data illustrations by Storyset</a> */}
-            <img
+            <Image
               src="/Process-amico.svg"
-              width="550"
-              height="550"
+              width={550}
+              height={550}
               alt="Our Repair Process"
               className="mx-auto aspect-video overflow-hidden rounded-xl object-cover sm:w-full lg:order-last lg:aspect-square"
             />
@@ -297,10 +298,10 @@ export default function Homepage() {
               </div>
             </div>
             {/* <a href="https://storyset.com/people">People illustrations by Storyset</a> */}
-            <img
+            <Image
               src="/Team goals-pana.svg"
-              width="550"
-              height="550"
+              width={550}
+              height={550}
               alt="Why Choose Us"
               className="mx-auto aspect-video overflow-hidden rounded-xl object-cover sm:w-full lg:order-last lg:aspect-square"
             />
@@ -311,7 +312,7 @@ export default function Homepage() {
             <div className="space-y-2">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Contact Us</h2>
               <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Get in touch with our team to learn more about our services or schedule a repair. We're here to help!
+                Get in touch with our team to learn more about our services or schedule a repair. We&apos;re here to help!
               </p>
               <form className="space-y-4">
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -340,10 +341,10 @@ export default function Homepage() {
               </form>
             </div>
             {/* <a href="https://storyset.com/technology">Technology illustrations by Storyset</a> */}
-            <img
+            <Image
               src="/Product teardown-bro.svg"
-              width="550"
-              height="550"
+              width={550}
+              height={550}
               alt="Contact Us"
               className="mx-auto aspect-video overflow-hidden rounded-xl object-cover sm:w-full lg:order-last lg:aspect-square"
             />
