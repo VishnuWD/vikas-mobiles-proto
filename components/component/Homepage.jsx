@@ -301,7 +301,7 @@ export default function Homepage() {
                 </div>
               </div>
             </div>
-            {/* <a href="https://storyset.com/people">People illustrations by Storyset</a> */}
+            {/*git <a href="https://storyset.com/people">People illustrations by Storyset</a> */}
             <Image
               src="/Team goals-pana.svg"
               width={550}
