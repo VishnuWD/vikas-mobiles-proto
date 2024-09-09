@@ -13,6 +13,10 @@ inter({
   display: 'swap',
 })
 
+/* eslint-disable @next/next/no-img-element */
+/* eslint-disable react/no-unescaped-entities */
+
+
 To read more about using these font, please visit the Next.js documentation:
 - App Directory: https://nextjs.org/docs/app/building-your-application/optimizing/fonts
 - Pages Directory: https://nextjs.org/docs/pages/building-your-application/optimizing/fonts
@@ -241,7 +245,7 @@ export default function Homepage() {
                   <div>
                     <h3 className="text-lg font-medium">Delivery</h3>
                     <p className="text-muted-foreground">
-                      Once your device is repaired, we'll either deliver it back to you or have it ready for you to pick
+                      Once your device is repaired, we will either deliver it back to you or have it ready for you to pick
                       up.
                     </p>
                   </div>
@@ -264,7 +268,7 @@ export default function Homepage() {
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Why Choose Us?</h2>
               <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 At our smartphone repair shop, we pride ourselves on providing top-notch service and using only the
-                highest quality parts. Here's why you should choose us:
+                highest quality parts. Here is why you should choose us:
               </p>
               <div className="grid gap-6">
                 <div className="flex items-start gap-4">
