@@ -81,7 +81,7 @@ export default function Homepage() {
             </div>
             {/* <a href="https://storyset.com/technology">Technology illustrations by Storyset</a> */}
             <Image
-              src="public/product teardown-amico.svg"
+              src="/Product teardown-amico.svg"
               width={550}
               height={550}
               alt="Hero"
@@ -254,7 +254,7 @@ export default function Homepage() {
             </div>
             {/* <a href="https://storyset.com/data">Data illustrations by Storyset</a> */}
             <Image
-              src="public/Process-amico.svg"
+              src="/Process-amico.svg"
               width={550}
               height={550}
               alt="Our Repair Process"
@@ -303,7 +303,7 @@ export default function Homepage() {
             </div>
             {/*git <a href="https://storyset.com/people">People illustrations by Storyset</a> */}
             <Image
-              src="public/Team goals-pana.svg"
+              src="/Team goals-pana.svg"
               width={550}
               height={550}
               alt="Why Choose Us"
@@ -346,7 +346,7 @@ export default function Homepage() {
             </div>
             {/* <a href="https://storyset.com/technology">Technology illustrations by Storyset</a> */}
             <Image
-              src="public/Product teardown-bro.svg"
+              src="/Product teardown-bro.svg"
               width={550}
               height={550}
               alt="Contact Us"
